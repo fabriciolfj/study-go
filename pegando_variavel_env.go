@@ -12,7 +12,7 @@ func test5() {
 		port = "8080"
 	}
 	fmt.Println("Servidor rodando na porta", port)
-	http.HandleFunc("/", homePage)
+	http.HandleFunc("/", homePage2)
 	http.ListenAndServe(":"+port, nil)
 }
 

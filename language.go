@@ -38,6 +38,6 @@ func sayHello(cmd *cobra.Command, args []string) {
 	fmt.Printf("%s %s!\n", greeting, name)
 }
 
-func main() {
+func mainOld() {
 	helloCommand.Execute()
 }
