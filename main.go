@@ -1,7 +1,9 @@
 package main
 
-import "hello/metodo"
+import (
+	"hello/generic"
+)
 
 func main() {
-	metodo.CreateNewAnimal()
+	generic.ExecuteRestriction()
 }
