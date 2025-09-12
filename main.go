@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/generic"
+	"hello/errors"
 )
 
 func main() {
-	generic.ExecuteRestriction()
+	errors.Execute3()
 }
