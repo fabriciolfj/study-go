@@ -3,6 +3,7 @@ module hello
 go 1.24.6
 
 require (
+	github.com/Masterminds/cookoo v1.3.0
 	github.com/go-ini/ini v1.67.0
 	github.com/kylelemons/go-gypsy v1.0.0
 	github.com/spf13/cobra v1.10.1
