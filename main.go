@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/errors"
+	"hello/canais"
 )
 
 func main() {
-	errors.ExecuteHttp()
+	canais.Execute()
 }
