@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	canais.Execute()
+	canais.Execute5()
 }
