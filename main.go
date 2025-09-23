@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/fizzbuzz"
+	"hello/arquivos"
 )
 
 func main() {
-	fizzbuzz.Execute()
+	arquivos.Execute3()
 }

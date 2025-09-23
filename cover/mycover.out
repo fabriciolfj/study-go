@@ -1,0 +1,5 @@
+mode: set
+hello/cover/modelo.go:3.14,3.15 0 0
+hello/cover/modelo.go:5.16,7.2 1 1
+hello/cover/modelo.go:9.16,11.2 1 1
+hello/cover/modelo.go:13.16,15.2 1 0
