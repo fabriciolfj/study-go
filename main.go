@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/canais"
+	"hello/fizzbuzz"
 )
 
 func main() {
-	canais.Execute5()
+	fizzbuzz.Execute()
 }
