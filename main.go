@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/arquivos"
+	"hello/sse"
 )
 
 func main() {
-	arquivos.Execute3()
+	sse.Execute()
 }

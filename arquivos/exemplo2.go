@@ -23,7 +23,7 @@ func Execute2() {
 	lineJson := make(map[string]interface{})
 	var bChunk []byte
 	for {
-		b := make([]byte, 20)
+		b := make([]byte, 639)
 		_, err := file.Read(b)
 
 		if err != nil {
@@ -34,6 +34,8 @@ func Execute2() {
 		if err := json.Unmarshal(bChunk, &lineJson); err == nil {
 			log.Println(lineJson)
 			bChunk = []byte{}
+		} else {
+			log.Println(err)
 		}
 	}
 
