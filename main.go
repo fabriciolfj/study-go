@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/sse"
+	"hello/http2"
 )
 
 func main() {
-	sse.Execute()
+	http2.Execute()
 }
