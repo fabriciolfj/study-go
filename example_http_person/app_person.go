@@ -25,6 +25,9 @@ func login(username, password string) bool {
 }
 
 func salvePerson(w http.ResponseWriter, r *http.Request) {
+	username, password, _ := r.BasicAuth()
+	login(username, password)
+
 	body, err := io.ReadAll(r.Body)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
