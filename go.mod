@@ -6,6 +6,7 @@ require (
 	github.com/Masterminds/cookoo v1.3.0
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/go-ini/ini v1.67.0
+	github.com/golang-jwt/jwt/v5 v5.3.0
 	github.com/jackc/pgx/v5 v5.7.6
 	github.com/kylelemons/go-gypsy v1.0.0
 	github.com/spf13/cobra v1.10.1

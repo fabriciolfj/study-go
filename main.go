@@ -1,9 +1,9 @@
 package main
 
 import (
-	"hello/http2"
+	"hello/example_http_person"
 )
 
 func main() {
-	http2.Execute()
+	example_http_person.Execute()
 }
