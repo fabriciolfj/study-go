@@ -1,10 +1,9 @@
 package main
 
-import (
-	"hello/codec"
-)
+import "hello/reflection"
 
 func main() {
-	codec.Execute()
+	reflection.Execute3()
+	//codec.Execute()
 	//http2.Execute()
 }
