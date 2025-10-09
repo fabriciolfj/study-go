@@ -45,7 +45,7 @@ func Execute() {
 func sseHandler(w http.ResponseWriter, r *http.Request) {
 	flusher, ok := w.(http.Flusher)
 	if !ok {
-		http.Error(w, "byte streams not supported by your client",
+		http.Error(w, "byte streams not supported by your client_grpc",
 			http.StatusInternalServerError)
 		return
 	}

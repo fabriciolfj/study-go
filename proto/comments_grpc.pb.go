@@ -22,7 +22,7 @@ const (
 	ChatService_RouteComments_FullMethodName = "/chat.ChatService/RouteComments"
 )
 
-// ChatServiceClient is the client API for ChatService service.
+// ChatServiceClient is the client_grpc API for ChatService service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type ChatServiceClient interface {
@@ -47,7 +47,7 @@ func (c *chatServiceClient) RouteComments(ctx context.Context, in *CommentReques
 	return out, nil
 }
 
-// ChatServiceServer is the server API for ChatService service.
+// ChatServiceServer is the server_grpc API for ChatService service.
 // All implementations must embed UnimplementedChatServiceServer
 // for forward compatibility.
 type ChatServiceServer interface {

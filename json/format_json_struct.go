@@ -23,5 +23,13 @@ func Execute() {
 		panic(err)
 	}
 
-	fmt.Println(string(output))
+	//fmt.Println(string(output))
+
+	var animal Animal
+	err = json.Unmarshal(output, &animal)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(animal)
 }

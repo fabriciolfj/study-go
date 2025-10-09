@@ -14,7 +14,7 @@ func ExecuteHttp() {
 	}()*/
 
 	if err := http.ListenAndServe(":8080", nil); err != nil {
-		panic("could not start server")
+		panic("could not start server_grpc")
 	}
 }
 

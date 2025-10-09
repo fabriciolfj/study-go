@@ -32,6 +32,6 @@ func Execute3() {
 	http.HandleFunc("GET /withcontext",
 		uaMiddleware(uaStatusHandler))
 	if err := http.ListenAndServe(":8000", nil); err != nil {
-		panic("could not start server")
+		panic("could not start server_grpc")
 	}
 }

@@ -35,6 +35,6 @@ func guestbookHandler(ctx context.Context) http.HandlerFunc {
 	myValue := ctx.Value("webConfig").(config)
 	return func(w http.ResponseWriter, r *http.Request) {
 		myValue.Pageviews++
-		fmt.Fprintln(w, fmt.Sprintf("welcome to my guestbook. hit counter since server restart: %v", myValue.Pageviews))
+		fmt.Fprintln(w, fmt.Sprintf("welcome to my guestbook. hit counter since server_grpc restart: %v", myValue.Pageviews))
 	}
 }

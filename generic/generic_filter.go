@@ -2,15 +2,15 @@ package generic
 
 import "fmt"
 
-func filter[T any](items []T, fx func(T) bool) []T {
-	var filtred []T
+func filter[T any](items []T, predicate func(T) bool) []T {
+	var filter []T
 	for _, item := range items {
-		if fx(item) {
-			filtred = append(filtred, item)
+		if predicate(item) {
+			filter = append(filter, item)
 		}
 	}
 
-	return filtred
+	return filter
 }
 
 func ExecutarFilter() {
